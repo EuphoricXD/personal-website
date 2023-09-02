@@ -1,0 +1,15 @@
+p{
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.top{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.click:hover{
+  cursor: pointer;
+}

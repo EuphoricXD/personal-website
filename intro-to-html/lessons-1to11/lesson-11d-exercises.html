@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 9f</title>
+    <style>
+      p{
+        font-family: Arial;
+        margin: 0px;
+      }
+
+      .large-image{
+        width: 100px;
+        height: 100px;
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .profile{
+        width: 100px;
+        box-shadow: 0px 0px 6px gray;
+      }
+
+      .name{
+        font-weight: bold;
+        font-size: 10px;
+        margin-left: 3px;
+        margin-top: 5px;
+      }
+
+      .mutual-friends{
+        font-size: 8px;
+        color: gray;
+        vertical-align: middle;
+
+      }
+      .add-friend{
+        font-size: 8px;
+        color: white;
+        background-color: rgb(41, 119, 244);
+        border: none;
+        padding: 6px 10px;
+        border-radius: 3px;
+        margin-left: 3px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+      }
+      
+      .mutual-friends-block,
+      .mutual-pfp-block{
+        display: inline-block;
+      }
+
+      .mutual-pfp{
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        object-fit: cover;
+        margin-left: 5px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="
+          display: grid;
+          grid-template-columns: 100px 100px 100px;
+          column-gap: 10px;
+          ">
+      <div class="profile">
+        <div class="large-image">
+          <img class="dog-1" src="exercise-images/dog-1.jpg">
+        </div>
+  
+        <div>
+          <p class="name">
+            Oliver
+          </p>
+        </div>
+  
+        <div>
+          <div class="mutual-pfp-block">
+            <img class="mutual-pfp" src="exercise-images/enhypen.jpg">
+          </div>
+          <div class="mutual-friends-block">
+            <p class="mutual-friends">
+              2 mutual friends
+            </p>
+          </div>
+        </div>
+  
+        <div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+  
+      <div class="profile">
+        <div class="large-image">
+          <img class="dog-2" src="exercise-images/dog-2.jpeg">
+        </div>
+  
+        <div>
+          <p class="name">
+            Mimi
+          </p>
+        </div>
+  
+        <div>
+          <div class="mutual-pfp-block">
+            <img class="mutual-pfp" src="exercise-images/enhypen.jpg">
+          </div>
+          <div class="mutual-friends-block">
+            <p class="mutual-friends">
+              3 mutual friends
+            </p>
+          </div>
+        </div>
+  
+        <div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+  
+      <div class="profile">
+        <div class="large-image">
+          <img class="dog-3" src="exercise-images/dog-3.jpg">
+        </div>
+  
+        <div>
+          <p class="name">
+            Rex
+          </p>
+        </div>
+  
+        <div>
+          <div class="mutual-pfp-block">
+            <img class="mutual-pfp" src="exercise-images/enhypen.jpg">
+          </div>
+          <div class="mutual-friends-block">
+            <p class="mutual-friends">
+              4 mutual friends
+            </p>
+          </div>
+        </div>
+  
+        <div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

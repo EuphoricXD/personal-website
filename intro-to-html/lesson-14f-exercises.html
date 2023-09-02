@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Lesson 14f</title>
+
+    <style>
+
+      p{
+        margin: 0;
+        font-family: Arial;
+        color: gray;
+      }
+
+      .server-sidebar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 80px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(40,43,48);
+        align-items: center;
+        padding-top: 20px;
+      }
+
+      .channels-sidebar{
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        width: 140px;
+        left: 80px;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(66,69,73);
+        padding: 20px 12px;
+      }
+
+      .info-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+
+      img{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-bottom: 7px;
+      }
+
+      .channel-names{
+        color: rgb(164, 159, 159);
+        font-size: 14px;
+        margin: 4px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="server-sidebar">
+      <img src="exercise-images/dog-1.jpg">
+      <img src="exercise-images/dog-2.jpeg">
+      <img src="exercise-images/dog-3.jpg">
+
+    </div>
+
+    <div class="channels-sidebar">
+      <div class="info-row">
+        <p style="
+          font-size: 12px;
+          font-weight: bold;
+          color: white;
+        ">INFO</p>
+        <p style="
+          font-size: 14px;
+          font-weight: bold;
+          color: rgb(185, 181, 181); 
+        ">&#65291</p>
+      </div>
+
+      <p class="channel-names"># new-videos</p>
+      <p class="channel-names"># updates</p>
+      <p class="channel-names"># faq</p>
+
+    </div>
+
+  </body>
+
+</html>

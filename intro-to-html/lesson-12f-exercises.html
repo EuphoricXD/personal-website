@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Lesson 12f</title>
+
+    <style>
+      body{
+        font-family: Arial;
+        color: white;
+      }
+
+      .flexbox{
+        display: flex;
+        padding: 12px 12px;
+        background-color: rgb(112, 12, 194);
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .home{
+        font-weight: bold;
+        font-size: 15px;
+      }
+
+      .search{
+        margin: 0px 20px;
+        flex: 1;
+        max-width: 650px;
+      }
+
+      .search-bar{
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: none;
+      }
+
+      .download{
+        border-radius: 2px;
+        border-style: solid;
+        border-color: white;
+        padding: 8px 14px;
+        border-width: 1px
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div class="home">Home</div>
+
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+
+      <div class="download">Download</div>
+    </div>
+  </body>
+</html>

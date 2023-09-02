@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Lesson 12g</title>
+
+    <style>
+      p{
+        font-family: Arial;
+        margin: 0px;
+      }
+
+      .info{
+        margin: 0px 8px;
+        width: 200px;
+      }
+      .profiles{
+        row-gap: 10px;
+      }
+      .title
+      {
+        font-weight: bold;
+      }
+
+      .sub-title{
+        color: gray;
+      }
+
+      .pop{
+        color: gray;
+        font-size: 12px;
+        margin: 2px 0px;
+      }
+      .pfp{
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        border-radius: 75px;
+      }
+
+      .row{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+      }
+
+      button{
+        border: none;
+        background-color: rgb(69, 142, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 6px 8px;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="profiles">
+      <div class="row">
+        <img class="pfp" src="exercise-images/dog-1.jpg">
+        <div class="info">
+          <p class="title">oliver</p>
+          <p class="sub-title">the cat</p>  
+          <p class="pop">Popular</p>   
+        </div>
+        <div class="follow">
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="row">
+        <img class="pfp" src="exercise-images/dog-2.jpeg">
+        <div class="info">
+          <p class="title">Mimi</p>
+          <p class="sub-title">sleepy cat</p>  
+          <p class="pop">Popular</p>   
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>   
+      <div class="row">
+        <img class="pfp" src="exercise-images/dog-3.jpg">
+        <div class="info">
+          <p class="title">Rex</p>
+          <p class="sub-title">Happy Bulldog</p>  
+          <p class="pop">Popular</p>   
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>   
+    </div>
+  </body>
+</html>

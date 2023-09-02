@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Lesson 13e</title>
+    
+    <style>
+      .viewport{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        box-shadow: 0px 0px 5px gray;
+      }
+
+      .mail-row{
+        display: flex;
+        flex-direction: row;
+        margin: 12px 0px;
+      }
+
+      .text-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .author-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      img{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin: 0px 10px;
+      }
+
+      p{
+        font-family: Arial;
+        margin: 0px 4px;
+      }
+
+      .author{
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+
+      .subject{
+        font-weight: bold;
+        font-size: 1em;
+      }
+
+      .message{
+        color: gray;
+        font-size: 0.95em;
+      }
+
+      .time{
+        color: gray;
+        font-size: 0.9em;
+      }
+      
+      .all-inboxes{
+        margin: 10px 10px;
+        color: gray;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="viewport">
+      <p class="all-inboxes">ALL INBOXES</p>
+      <div class="mail-row">
+        <div class="pfp-column">
+          <img src="exercise-images/dog-1.jpg">
+        </div>
+        <div class="text-column">
+          <div class="author-row">
+            <div class="author-column">
+              <p class="author">Chewy Promotions</p>
+            </div>
+            <div class="timestamp">
+              <p class="time">4:58 PM</p>
+            </div>
+          </div>
+          <div class="subject-row">
+            <p class="subject">Biggest sales of the year!</p>
+          </div>
+          <div class="message-row">
+            <p class="message">Hey there! We're writing to tell you about our...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mail-row">
+        <div class="pfp-column">
+          <img src="exercise-images/dog-2.jpeg">
+        </div>
+        <div class="text-column">
+          <div class="author-row">
+            <div class="author-column">
+              <p class="author">Best Buy</p>
+            </div>
+            <div class="timestamp">
+              <p class="time">12:32 PM</p>
+            </div>
+          </div>
+          <div class="subject-row">
+            <p class="subject">Your Best Buy eReceipt</p>
+          </div>
+          <div class="message-row">
+            <p class="message">Thank you for shopping at Best Buy, here is...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mail-row">
+        <div class="pfp-column">
+          <img src="exercise-images/dog-3.jpg">
+        </div>
+        <div class="text-column">
+          <div class="author-row">
+            <div class="author-column">
+              <p class="author">Netflix</p>
+            </div>
+            <div class="timestamp">
+              <p class="time">9:00 AM</p>
+            </div>
+          </div>
+          <div class="subject-row">
+            <p class="subject">Here's what's coming soon to Netflix</p>
+          </div>
+          <div class="message-row">
+            <p class="message">Brand new movies and shows, old favorites...</p>
+          </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
